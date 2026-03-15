@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             AndroidCILabTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     MainScreen(
-                        modifier = Modifier.padding(innerPadding)
+                        modifier = Modifier.padding(innerPadding),
                     )
                 }
             }
@@ -33,7 +33,7 @@ class MainActivity : ComponentActivity() {
 fun MainScreen(modifier: Modifier = Modifier) {
     Text(
         text = "Android CI Lab",
-        modifier = modifier
+        modifier = modifier,
     )
 }
 
