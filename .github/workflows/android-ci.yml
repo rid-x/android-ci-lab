@@ -21,5 +21,8 @@ jobs:
       - name: Run KtLint
         run: ./gradlew ktlintCheck
 
+      - name: Run Tests
+        run: ./gradlew test
+
       - name: Build with Gradle
         run: ./gradlew build
